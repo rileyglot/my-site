@@ -1,0 +1,63 @@
+body {
+    background-image: url('assets/sparkling-white.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+h1 {
+    color: yellow;
+    font-size: 3em;
+}
+
+h2 {
+    color: yellow;
+}
+
+.divider {
+    border: 1px solid grey;
+    opacity: 50%;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vw;
+}
+
+.top-header-img {
+    width: 7vw;
+    height: 7vw;
+}
+
+#top-header-left {
+    padding-left: 20vw;
+}
+
+#top-header-middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#top-header-middle h1 {
+    margin: 0;
+    margin-top: 2vh;
+}
+
+#top-header-middle p {
+    margin: 0;
+    color: hotpink;
+    font-weight: bold;
+}
+
+#top-header-right {
+    padding-right: 20vw;
+}
