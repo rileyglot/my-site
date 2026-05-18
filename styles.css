@@ -1,9 +1,8 @@
 body {
-    background-image: url('assets/sparkling-white.gif');
+    background-image: url('assets/sparkling-blue.gif');
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
-    overflow: hidden;
     padding: 0;
     margin: 0;
     padding-left: 1vw;
@@ -17,11 +16,33 @@ h1 {
 
 h2 {
     color: yellow;
+    margin: 4px;
 }
+
+p {
+    color: yellow;
+    font-size: 1.06em;
+    margin: 4px;
+    background-color: black;
+    width: fit-content;
+}
+
+ul {
+    color: yellow;
+    font-size: 1.06em;
+    margin: 4px;
+}
+
+.li-background {
+    background-color: black;
+    width: fit-content;
+}
+
 
 .divider {
     border: 1px solid grey;
     opacity: 50%;
+    margin-bottom: 1vh;
 }
 
 .top-header {
@@ -60,4 +81,15 @@ h2 {
 
 #top-header-right {
     padding-right: 20vw;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex: 1 1 0px;
+}
+
+.tweet {
+    width: 70%;
+    height:10%;
+    margin-left: 5vw;
 }
