@@ -2,7 +2,7 @@ body {
     background-image: url('assets/sparkling-blue.gif');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: left top;
     padding: 0;
     margin: 0;
     padding-left: 1vw;
@@ -48,8 +48,8 @@ h1, h2, p, ul {
 
 
 .divider {
-    border: 1px solid grey;
-    opacity: 50%;
+    border: 1px solid white;
+    opacity: 40%;
     margin-bottom: 1vh;
 }
 
