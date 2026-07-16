@@ -204,3 +204,10 @@ h1, h2, p, ul {
 .project-text {
     color: yellow;
 }
+
+#donate-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
