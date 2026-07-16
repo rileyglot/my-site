@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     min-height: 100vh;
+    height: 100%
 }
 
 ::-webkit-scrollbar {
@@ -42,6 +43,7 @@ ul {
     margin: 4px;
 }
 
+
 /*
 a, img {
     margin-bottom: 0;
@@ -64,15 +66,16 @@ h1, h2, p, ul {
 
 
 .divider {
-    border: 1px solid white;
     opacity: 40%;
-    margin-bottom: 1vh;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
 .top-header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 0.5vw;
 }
 
@@ -80,10 +83,12 @@ h1, h2, p, ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .navbutton {
     /* ERM IDK */
+    size: 100%;
 }
 
 .top-header-img {
@@ -149,4 +154,53 @@ h1, h2, p, ul {
     width: 75%;
     margin-left: 0.5vw;
     margin-right:0.5vw
+}
+
+#projects-display {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+    row-gap: 10px;
+    column-gap: 5px;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+@media (max-width: 535px) {
+  .project-display {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.project-card {
+    height: 26.6rem;
+    width: 318px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.project-card h3, p {
+    color: yellow;
+    margin: 0;
+    margin-left: 2%
+    
+}
+
+.project-card a {
+    color: lightblue;
+    margin: 0;
+    margin-left: 2%;
+    margin-top: 2%
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+
+.project-text {
+    color: yellow;
 }
