@@ -1,0 +1,20 @@
+<!--
+            <div class="left">
+                <div class="horizontal-flex">
+                    <div>
+                        <h2>Smashy bros</h2>
+                        <p>I love Smash Ultimate, and I compete in it very regularly. I am determined to be the best I can be!</p>
+                        <p>I am:</p>
+                        <ul>
+                            <li class="li-background">A Steve main</li>
+                            <li class="li-background">Ranked #4 in North East England</li>
+                            <li class="li-background">Somewhat known online for my clips that p*ss people off (here's one of them →)</li>
+                        </ul>
+                        <p>I really enjoy labbing and performing complex combos with Steve since his skill ceiling is essentially endless, how they let him stay in his current state is genuinely beyond me lul</p>
+                    </div>
+                    <div class="tweet">
+                        <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Really cool matchup <a href="https://t.co/WfT0TI83z3">pic.twitter.com/WfT0TI83z3</a></p>&mdash; redux (@Ganonberg) <a href="https://twitter.com/Ganonberg/status/2032559316197101929?ref_src=twsrc%5Etfw">March 13, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+-->

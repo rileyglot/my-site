@@ -68,7 +68,7 @@ h1, h2, p, ul {
 .divider {
     opacity: 40%;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .top-header {
@@ -138,31 +138,35 @@ h1, h2, p, ul {
     align-items: center;
 }
 
-.horizontal-flex {
-    display: flex;
-    flex: 1 1 0px;
-}
-
-.left {
-    flex: 1;
-}
-.right {
-    flex: 1;
-}
-
 .tweet {
     width: 75%;
     margin-left: 0.5vw;
     margin-right:0.5vw
 }
 
+#index-display {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width:fit-content
+}
+
+.index-item {
+    width: 80%
+}
+
+.index-link {
+    color: lightblue;
+}
+
+
 #projects-display {
     display: flex; 
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-evenly;
-    row-gap: 10px;
-    column-gap: 5px;
+    row-gap: 12px;
+    column-gap: 24px;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
 }
@@ -175,16 +179,23 @@ h1, h2, p, ul {
 }
 
 .project-card {
-    height: 26.6rem;
-    width: 318px;
+    height: 28em;
+    width: 340px;
     background-color: black;
     border: 1px solid white;
 }
 
-.project-card h3, p {
+.project-card h3 {
     color: yellow;
     margin: 0;
     margin-left: 2%
+    
+}
+
+.project-card p {
+    color: yellow;
+    margin: 0;
+    margin-left: 1%
     
 }
 
@@ -205,9 +216,65 @@ h1, h2, p, ul {
     color: yellow;
 }
 
+
+
+
 #donate-text {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+
+
+#socials-display {
+    display: flex;
+    justify-content: center;
+}
+
+#socials-waterfall {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 70vw;
+    height: auto;
+    background-image: url('assets/waterfall.gif');
+    background-repeat: repeat;
+}
+
+.socials-card {
+    width: 320px;
+    height: 75vh;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.socials-card img {
+    width: 100%;
+    height: auto + 1%;
+}
+
+.socials-card h3, p {
+    color: yellow;
+    margin: 0;
+    margin-left: 2%
+}
+
+.socials-card p {
+    color: yellow;
+    margin: 0;
+    margin-left: 2%
+}
+
+.socials-card a {
+    color: lightblue;
+    margin: 0;
+    margin-left: 2%;
+    margin-top: 2%
+}
+
+.socials-text {
+    color: yellow;
 }
