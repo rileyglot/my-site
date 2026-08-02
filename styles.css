@@ -200,15 +200,24 @@ h1, h2, p, ul {
 }
 
 
-#projects-display {
-    display: flex; 
-    flex-flow: row wrap;
+#projects-view {
+    display: flex;
     justify-content: center;
-    align-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+}
+
+#projects-display {
+    display: inline flex; 
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-around;
     row-gap: 12px;
     column-gap: 24px;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
+    padding-left: 0.5vw;
+    width:fit-content;
 }
 
 @media (max-width: 535px) {
@@ -219,8 +228,8 @@ h1, h2, p, ul {
 }
 
 .project-card {
-    height: 28em;
-    width: 340px;
+    height: 29.2em;
+    width: 360px;
     background-color: black;
     border: 1px solid white;
 }
@@ -228,14 +237,14 @@ h1, h2, p, ul {
 .project-card h3 {
     color: yellow;
     margin: 0;
-    margin-left: 2%
+    margin-left: 1.5%
     
 }
 
 .project-card p {
     color: yellow;
     margin: 0;
-    margin-left: 1%
+    margin-left: 1.5%
     
 }
 
@@ -254,6 +263,7 @@ h1, h2, p, ul {
 
 .project-text {
     color: yellow;
+    margin-left: 2%;
 }
 
 
